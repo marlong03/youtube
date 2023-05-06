@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <header>
+        <div class="container__items">
+            <img class="hamburguesaIcon"src="imgs/hamburguesa.svg" alt="">
+            <img class="youtubeLetrasIcon"src="imgs/youtubeLetrasLogo.svg" alt="">
+        </div>
+        <div class="container__items">
+            <div class="container__search">
+                <input type="search" placeholder="Buscar">
+                <button><img src="imgs/lupa.svg" alt=""></button>
+            </div>
+            <div>
+                <img class="microfonoIcon"src="imgs/microfono.svg" alt="">
+            </div>
+        </div>
+        <div class="container__items">
+            <img  class="notificacionIcon"src="imgs/notificacion.svg" alt="">
+            <span class="profileIcon">M</span>
+        </div>
+    </header>
+    <main>
+
+        <section class="container__content">
+            <section class="container__content--left" id="containerVideoPrincipal">
+                <div class="container__video--main">
+                    <video src="./video/video.mp4" controls></video>
+                </div>
+                <div class="container__video--info">
+                    <div>
+                        <h2>Me Porto Bonito (Remix)</h2>
+                    </div>
+                    <div class="container__btns--video">
+                        <div class="container__profile--channel">
+                            <div>
+                                <img src="imgs/usuario.png" alt="">
+                            </div>
+                            <div>
+                                <h4>Name channel</h4>
+                                <small>2M de subscriptores</small>
+                            </div>
+                            <div>
+                                <input class="btnSubscribirme"type="button" value="Subscribirme">
+                            </div>
+                        </div>
+                        <div class="container__btns--interaction">
+                            <div class="btns__likes">   
+                                <div>
+                                    <button class="btn__like">
+                                        <img src="imgs/like.svg" alt="">
+                                        <small>
+                                            20
+                                        </small>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button class="btn__dislike">
+                                        <img src="imgs/like.svg" alt="">
+                                     
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="container__btnCompartir">
+                                
+                                <button class="btnCompartir">
+                                    <div>
+                                        <img  src="imgs/compartir.svg" alt="">
+                                    </div>
+                                    <div>
+                                        <small>Compartir</small>
+                                    </div>
+                                </button>
+                            </div>
+                            <div>
+                                <button class="btnTresPuntos">
+                                    <img src="imgs/tresPuntos.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="container__vide--description">
+                        <div>
+                            <h4>300.000 visualizaciones &nbsp; 21 ene 2023</h4> 
+                        </div>
+                        <div>
+                           <p> 🎵 [Banda Romántica] Calibre 50 - A La Antigüita || Marca MP, Eslabon Armado , DannyLux (Letra\Lyrics)
+
+                            🔔 Don't forget to subscribe and turn on notifications!</p>
+                        </div>
+                    </div>
+                    <div class="container__video--comentarios">
+                        <div class="comentarios--header">
+                            <div>
+                                <p>30 comentarios</p>
+                            </div>
+                           <div>
+                                <img src="imgs/filtrar.svg" alt=""> 
+                                Ordenar por
+                           </div>
+                        </div>
+                        <div class="comentarios--crear">
+                            <div>
+                                <img src="imgs/usuario.png" alt="">
+                            </div>
+                            <div>
+                                <input type="text" id="inputComentario" placeholder="Añade un comentario...">
+
+                                <button id="btnComentar">comentar</button>
+                            </div>
+                        </div>
+                        <div class="container__comentarios">
+                            <div class="comentario--detalle">
+                                <div class="comentario--detalle--avatar">
+                                    <img src="imgs/usuario.png" alt="">
+                                </div>
+                                <div>
+                                    <div>
+
+                                        <h4>Marlong mendoza <span>&nbsp; hace 2 semanas</span></h4>
+                                    </div>
+                                    <div>
+                                        holaa este es un comentario...
+                                    </div>
+                                    <div class="comentario--likes">
+                                        <img src="imgs/like.svg" alt=""> <p> 12</p>
+                                        <img class="dislike" src="imgs/like.svg" alt="">
+                                        <span>Responder</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="comentario--detalle">
+                                <div class="comentario--detalle--avatar">
+                                    <img src="imgs/usuario.png" alt="">
+                                </div>
+                                <div>
+                                    <div>
+
+                                        <h4>Marlong mendoza <span>&nbsp; hace 2 semanas</span></h4>
+                                    </div>
+                                    <div>
+                                        holaa este es un comentario...
+                                    </div>
+                                    <div class="comentario--likes">
+                                        <img src="imgs/like.svg" alt=""> <p> 12</p>
+                                        <img class="dislike" src="imgs/like.svg" alt="">
+                                        <span>Responder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="container__content--right" id="containerVideosRight">
+                <div class="videos__ver" >
+                    <div>
+                        <img src="imgs/avion.jpg" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <h4>Bad Bunny - Me Porto Bonito </h4>
+                        </div>
+                        <div>
+                            Feid, Anuel AA, Tyga y más
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
